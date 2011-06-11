@@ -1,0 +1,7 @@
+[<id>+][name][<nav_id>][first_url];
+"1""Dashboard""1""dashboard-main";
+"2""Manager""2""manager-main";
+"3""Settings""3""settings-main";
+"4""Users""4""users-main";
+"5""Support""5""support-main";
+"6""Logout""6""logout";

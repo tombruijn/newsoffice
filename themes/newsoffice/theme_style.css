@@ -1,0 +1,819 @@
+/*
+----------------------------------------------------------------------------------------------------------------------------------------------
+					Global settings
+----------------------------------------------------------------------------------------------------------------------------------------------
+*/
+/* No spacing: margin + padding */
+	body,
+	form,
+	table,
+	td,
+	div
+	{
+		margin: 0px;
+		padding: 0px;
+	}
+	html,
+	body,
+	form
+	{
+		height: 100%;
+	}
+/* Set default font */
+	div,
+	td
+	{
+		font-family: Verdana, Arial;
+		font-size: 12px;
+		text-align: left;
+	}
+	
+	h1,h2,h3
+	{
+		font-weight: bold;
+	}
+	h1
+	{
+		font-size: 20px;
+	}
+	h2
+	{
+		font-size: 16px;
+	}
+	h3
+	{
+		font-size: 14px;
+	}
+/* Default table settings */
+	table
+	{
+		width: 100%;
+		table-layout: fixed;
+		empty-cells: show;
+		border-collapse: collapse;
+		border-spacing: 0px;
+	}
+	/* IE thinks 100% is the whole width of the browser view, but we only want the actual content of the content_content div */
+	* html .content_content table
+	{
+		width: 79%;
+	}
+	* html .content_content div table
+	{
+		width: 75%;
+	}
+	/* Default table cell */
+		td
+		{
+			vertical-align: top;
+		}
+	/* Subject */
+		td.subject
+		{
+			width: 150px;
+		}
+	/* Table title's */
+		th
+		{
+			padding: 0px;
+			font-size: 14px;
+			font-weight: bold;
+			text-align: left;
+			border-bottom: 1px solid #000000;
+		}
+		
+/* Images */
+	img
+	{
+		border: 0px;
+	}
+	
+/* ------------------------------------------
+	//Headers
+*/
+	h1
+	{
+		margin: 0px 0px 10px 0px;
+		color: #1F1F1F;
+	}
+	h2,
+	h3,
+	h4,
+	h5,
+	h6
+	{
+		margin: 5px 0px 5px 0px;
+	}
+	h2
+	{
+		color: #3D3D3D;
+	}
+	h3
+	{
+		color: #1C2E4B;
+	}
+
+/*
+----------------------------------------------------------------------------------------------------------------------------------------------
+					Link styles
+					Links and special links and how they look
+----------------------------------------------------------------------------------------------------------------------------------------------
+*/
+/* Default links */
+	a:link,
+	a:active, 
+	a:visited
+	{
+		color: #032232;
+		text-decoration: underline;
+	}
+	a:hover
+	{
+		color: #FF9900;
+		text-decoration: none;
+	}
+
+/* Links to create or edit new objects */
+	a.new:link,
+	a.new:active, 
+	a.new:visited,
+	a.edit:link,
+	a.edit:active, 
+	a.edit:visited
+	{
+		color: #00cf0b;
+		font-weight: bold;
+		text-decoration: underline;
+	}
+	a.new:hover,
+	a.edit:hover
+	{
+		color: #00ff0e;
+		text-decoration: none;
+	}
+
+		
+/*
+----------------------------------------------------------------------------------------------------------------------------------------------
+					Navigation objects
+----------------------------------------------------------------------------------------------------------------------------------------------
+*/
+.nav_link,
+.nav_link_active
+{
+	display: block;
+	overflow: hidden;
+	white-space: nowrap;
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+/* Default style for all category objects/links */
+	.nav_sections a.nav_link:link,
+	.nav_sections a.nav_link:active, 
+	.nav_sections a.nav_link:visited,
+	.nav_sections a.nav_link_active:link,
+	.nav_sections a.nav_link_active:active, 
+	.nav_sections a.nav_link_active:visited
+	{
+		display: block;
+		padding: 2px 0px 3px 4px;
+		
+		color: #FFFFFF;
+		font-family: Verdana, Arial;
+		font-weight: bold;
+		text-decoration: none;
+		
+		background-color: #2B7CAE;
+		border-right: 1px solid;
+		border-bottom: 1px solid;
+		border-color: #333333;
+	}
+	/* Links for active categories */
+		.nav_sections a.nav_link_active:link,
+		.nav_sections a.nav_link_active:active, 
+		.nav_sections a.nav_link_active:visited
+		{
+			padding-left: 8px;
+			color: #000000;
+			background-color: #FFFFFF;
+			border-right: 0px;
+		}
+		.nav_sections a.nav_link_active:hover
+		{
+			text-decoration: underline;
+		}
+	/* Not active links */
+		.nav_sections a.nav_link:hover 
+		{
+			color: #000000;
+			text-decoration: underline;
+			background-color: #F1F1F1;
+		}
+/* Default style for all page objects/links */
+	.nav_pages a.nav_link:link,
+	.nav_pages a.nav_link:active, 
+	.nav_pages a.nav_link:visited,
+	.nav_pages a.nav_link_active:link,
+	.nav_pages a.nav_link_active:active, 
+	.nav_pages a.nav_link_active:visited
+	{
+		display: block;
+		margin-left: 5px;
+		padding: 2px 0px 3px 4px;
+
+		color: #FFFFFF;
+		font-family: Verdana, Arial;
+		font-weight: bold;
+		text-decoration: none;
+
+		background-color: #2E85BC;
+		border-left: 1px solid;
+		border-right: 1px solid;
+		border-bottom: 1px solid;
+		border-color: #333333;
+	}
+	/* Style for active pages */
+		.nav_pages a.nav_link_active:link,
+		.nav_pages a.nav_link_active:active, 
+		.nav_pages a.nav_link_active:visited
+		{
+			padding-left: 8px;
+			color: #000000;
+			background-color: #FFFFFF;
+			border-right: 0px;
+		}
+	/* Hover active page */
+		.nav_pages a.nav_link_active:hover
+		{
+			text-decoration: underline;
+		}
+	/* Hover inactive page */
+		.nav_pages a.nav_link:hover
+		{
+			color: #000000;
+			text-decoration: underline;
+			background-color: #F1F1F1;
+		}
+	
+/* Footer links */
+	/* Style for active pages */
+		.footer_content a:link,
+		.footer_content a:active, 
+		.footer_content a:visited
+		{
+			color: #FFFFFF;
+			font-weight: bold;
+		}
+	/* Hover active page */
+		.footer_content a:hover
+		{
+			color: #FF9900;
+			text-decoration: none;
+		}
+	
+/*
+----------------------------------------------------------------------------------------------------------------------------------------------
+					Layout
+----------------------------------------------------------------------------------------------------------------------------------------------
+*/
+
+/* Default layout settings */
+	.page_main,
+	.page_footer
+	{
+		width: 100%;
+		background-repeat: repeat-y;
+	}
+/* Full browser size pages */
+	.page_main
+	{
+		min-height: 100%;
+		margin: 0 auto;
+	}
+	* html .page_main
+	{
+		height: 100%; /* Internet Explorer sees height as min-height */
+	}
+/* Default settings for inside layout */
+	.page_header,
+	.page_border,
+	.page_content,
+	.footer_content,
+	#page_fix
+	{
+		width: 100%;
+		min-width: 800px; /* Does not work in IE */
+	}
+	/* Header */
+		.page_header
+		{
+			height: 75px;
+			border-bottom: 1px solid #000000;
+		}
+	/* Border under header */
+		.page_border
+		{
+			/* 6 pixels high (including borders) */
+			height: 4px;
+			width: 100%;
+			color: #444444;
+			font-size: 1px;
+			background-color: #2E85BC;
+			border-bottom: 1px solid #000000;
+		}
+/* Content container */
+	.page_content
+	{
+		
+	}
+/* First content. This holds the navigation. */
+	.page_fico
+	{
+		float: left;
+		width: 20%;
+	}
+	/* First content, but then smaller. This is used when there is just one page in the active navigation section. */
+		.page_fico_small
+		{
+			float: left;
+			width: 10%;
+		}
+/* Main content */
+	.content_content
+	{
+		margin-left: 20%;
+		padding: 0px 5px 5px 5px;
+	}
+	/* Larger content to hold more information. This is used when there is just one page in the active navigation section. */
+		.content_content_large
+		{
+			margin-left: 10%;
+			padding: 0px 5px 5px 5px;
+		}
+
+/* Footer */
+	/* This and #page_fix is a fix for footer display when scrollbars active */
+		.page_footer
+		{	
+			margin: -20px auto 0 auto;
+		}
+		.page_footer
+		{
+			height: 20px;
+		}
+		#page_fix
+		{
+			height: 20px;
+		}
+	/* Actual shown footer */
+		.footer_content
+		{
+			height: 19px; /* Opera, Firefox and Webkit based */
+			background-color: #1067A8;
+			border-top: 1px solid #000000;
+		}
+		.footer_content div
+		{
+			padding: 3px 2px 3px 2px;
+			color: #FFFFFF;
+			font-size: 10px;
+			text-align: right;
+			background-color: #1067A8;
+		}
+
+/*
+----------------------------------------------------------------------------------------------------------------------------------------------
+					Important objects
+----------------------------------------------------------------------------------------------------------------------------------------------
+*/
+/* Shows the Login name and logout link in the right top corner of the browser */
+	div.user-info
+	{
+		position: absolute;
+		top: 0px;
+		right: 0px;
+		padding: 5px;
+		width: 150px;
+		text-align: right;
+	}
+/* ------------------------------------------
+	All blocks
+*/
+	div.block,
+	div.pages,
+	div.important,
+	div.updater,
+	div.status_ok,
+	div.error,
+	div.editor_advanced
+	{
+		display: block;
+		margin: 10px 0px 10px 0px;
+		padding: 5px;
+	}
+	/* Fix for important messages */
+		div.important_messages
+		{
+			padding-top: 10px;
+		}
+		div.important_messages div
+		{
+			margin-top: 0px;
+		}
+/* ------------------------------------------
+	Important boxes
+		Gives important information to the user, or highlights important variables
+*/
+	/* Used to display important variables */
+		.important
+		{
+			font-weight: bold;
+		}
+	/* More important whole texts go in a div */
+		div.important
+		{
+			background-color: #C6F6A1;
+			border: 1px solid #666666;
+			border-style: dashed;
+		}
+	/* Important message box closer */	
+		.important_message_closer
+		{
+			position: relative;
+			top: -5px;
+			left: 5px;
+			float: right;
+		}
+	/* Shows the changelog when a user updates to a newer version */
+		div#changelog
+		{
+			display: none; /* This will be set to block when active */
+			margin: 10px 15px 0px 0px;
+			padding: 5px;
+			font-weight: normal;
+			background-color: #FFFFFF;
+			border: 1px solid #666666;
+		}
+/* ------------------------------------------
+	Error box
+		Informs users about errors that have occured 
+*/
+	/* Error: Main box */
+		div.error
+		{
+			background-color: #FFAE00;
+			border: 1px solid #666666;
+		}
+/* ------------------------------------------
+	Updater box
+		Informs users about new updates. 
+		Always placed on top.
+		Only active when new updates are avaliable
+*/
+	/* Updater: Main box */
+		div.updater
+		{
+			color: #FFFFFF;
+			background-color: #008CFF;
+			border: 1px solid #000000;
+		}
+	/* Updater: Links */
+		div.updater a:link,
+		div.updater a:active, 
+		div.updater a:visited
+		{
+			color: #FFFFFF;
+			font-weight: bold;
+			text-decoration: underline;
+		}
+		div.updater a:hover
+		{
+			color: #FFAE00;
+			text-decoration: none;
+		}
+/*
+---------------------------------------------------------------------------------------------------
+			Information box
+			Used to seperate information from eachother
+---------------------------------------------------------------------------------------------------
+*/
+	/* Information: Main box */
+		div.block,
+		div.pages,
+		div.editor_advanced
+		{
+			background-color: #cfe0ff;
+			border: 1px solid #666666;
+		}
+	/* Information: Special box: floats to the right, used to display the delete button, etc. */
+		div.block-right
+		{
+			margin-top: 10px;
+			margin-right: 15px;
+			padding: 5px;
+			float: right;
+			background-color: #cfe0ff;
+			border: 1px solid #666666;
+		}
+	/* Information: Special box: Is used within the div.block box. Used to display smilies */
+		div.inside,
+		div.no_emoticons
+		{
+			margin: 10px 0px 10px 0px;
+			padding: 5px;
+			background-color: #FFFFFF;
+			border: 1px solid #666666;
+		}
+		div.inside td
+		{
+			padding: 2px 2px 2px 0px;
+			border-top: 1px solid #666666;
+		}
+/*
+---------------------------------------------------------------------------------------------------
+			Advanced options for a editor
+---------------------------------------------------------------------------------------------------
+*/
+	.editor_advanced_content
+	{
+		display: none;
+	}
+	table.advanced_options
+	{
+		border: 1px solid #666666;
+	}
+	.advanced_option td
+	{
+		padding: 2px;
+		background-color: #FFFFFF;
+		border-bottom: 1px solid #666666;
+	}
+	.advanced_option td.subject
+	{
+		padding: 2px;
+		width: 75px;
+		background-color: #FFFFFF;
+		border-right: 1px solid #666666;
+	}
+
+	div.mainsection
+	{
+		margin-right: 270px;
+	}
+	div.sidebar
+	{
+		float: right;
+		margin-top: 20px;
+		width: 255px; /* Width of sidebar, take margin's and padding's into account. */
+	}
+	* html div.sidebar
+	{
+		/* Internet Explorer fix for the width, only tested on IE8 */
+		width: 255px;
+	}
+	
+	.advanced_box
+	{
+		margin-bottom: 10px;
+		padding: 5px;
+		background-color: #cfe0ff;
+		border: 1px solid #666666;
+	}
+/*
+---------------------------------------------------------------------------------------------------
+			Pages
+			Shows mulitple pages where you can browse to.
+---------------------------------------------------------------------------------------------------
+*/
+div.pages
+{
+	float: right;
+	padding: 5px 10px 5px 10px;
+	text-align: right;
+}
+
+/*
+---------------------------------------------------------------------------------------------------
+			Top navigation addional links
+---------------------------------------------------------------------------------------------------
+*/
+/* Container */
+	.topnav
+	{
+		position: absolute;
+		top: 45px;
+		right: 5px;
+	}
+/* Links */
+	.topnav_link,
+	.topnav_link_active,
+	.topnavExp_link,
+	.topnavExp_link_active
+	{
+		float: right;
+		display: block;
+		margin: 5px;
+		padding-top: 1px;
+		padding: 5px 10px 5px 10px;
+		
+		font-family: Arial;
+		font-size: 12px;
+		font-weight: bold;
+		text-align: center;
+		border: 1px solid #000000;
+	}
+/* Default colors */
+	a.topnav_link:link,
+	a.topnav_link:active,
+	a.topnav_link:visited
+	{
+		color: #FFFFFF;
+		background-color: #0070D9;
+	}
+	a.topnav_link:hover,
+	a.topnav_link_active:link,
+	a.topnav_link_active:active,
+	a.topnav_link_active:visited,
+	a.topnav_link_active:hover
+	{
+		color: #2E85BC;
+		background-color: #FFFFFF;
+	}
+/*
+---------------------------------------------------------------------------------------------------
+			Advanced link
+			Hide/shows advanced options when avaliable
+---------------------------------------------------------------------------------------------------
+*/
+	a.topnavExp_link:link,
+	a.topnavExp_link:active,
+	a.topnavExp_link:visited
+	{
+		color: #E30404;
+		background-color: #FFFFFF;
+	}
+	a.topnavExp_link:hover
+	{
+		color: #FFFFFF;
+		background-color: #E30404;
+	}
+	/* Advanced links when active */
+	a.topnavExp_link_active:link,
+	a.topnavExp_link_active:active,
+	a.topnavExp_link_active:visited
+	{
+		color: #FFFFFF;
+		background-color: #E30404;
+	}
+	a.topnavExp_link_active:hover
+	{
+		color: #E30404;
+		background-color: #FFFFFF;
+	}
+/*
+---------------------------------------------------------------------------------------------------
+			Helpbox
+			Shows the help box in NewsOffice
+---------------------------------------------------------------------------------------------------
+*/
+/* Main object, invisible (not created) at first, but loaded with javascript */
+	#helpbox
+	{
+		position: absolute;
+		top: 75px;
+		right: 10px;
+		padding: 10px;
+		width: 300px;
+		
+		background-color: #FFFFFF;
+		border: 1px solid #000000;
+	}
+	#helpbox h1
+	{
+		color: #2E85BC;
+	}
+	/* Style fix */
+		#helpbox #helpbox_overlay
+		{
+			position: absolute;
+			top: -2px;
+			right: 0px;
+			width: 83px;
+			height: 2px;
+			font-size: 1px; /* Internet Explorer */
+			background-color: #FFFFFF;
+		}
+	/* Helpbox close object */
+		#helpbox #helpbox_closer
+		{
+			float: right;
+		}
+
+/*
+----------------------------------------------------------------------------------------------------------------------------------------------
+					Forms 
+					Define how the forms are displayed
+----------------------------------------------------------------------------------------------------------------------------------------------
+*/
+		div.form_publish
+		{
+			float: right;
+		}
+	/* Default textarea */
+		textarea
+		{
+			width: 100%;
+			font-family: Verdana, Arial;
+		}
+	/* Small textarea's */
+		textarea.small
+		{
+			height: 100px;
+		}
+	/* Larger textarea's */
+		textarea.large
+		{
+			height: 400px;
+		}
+		
+		
+/*
+----------------------------------------------------------------------------------------------------------------------------------------------
+				Text styles
+				Special texts and how they look
+----------------------------------------------------------------------------------------------------------------------------------------------
+*/
+/* Fake link, mainly used in AJAX commands */
+.fake_link
+{
+	cursor: pointer;
+	font-weight: bold;
+	text-decoration: underline;
+}
+.fake_link:hover
+{
+	color: #FF9900;
+	text-decoration: none;
+}
+
+/* Used to display small notes about an object */
+	.less_important
+	{
+		color: #666666;
+		font-size: 10px;
+	}
+/* Status reports */
+	/* Default style */
+		.status_ok,
+		.status_false
+		{
+			font-weight: bold;
+		}
+	/* Something went ok */
+		.status_ok
+		{
+			color: #28C600;
+		}
+		div.status_ok
+		{
+			color: #FFFFFF;
+			background-color: #28C600;
+			border: 1px solid #2BFF00;
+		}
+	/* Something went wrong */
+		.status_false
+		{
+			color: #FF5500;
+		}
+/*
+----------------------------------------------------------------------------------------------------------------------------------------------
+				Other objects
+----------------------------------------------------------------------------------------------------------------------------------------------
+*/
+
+/* Emoticons images are seperated */
+	img.emoticon
+	{
+		margin-right: 2px;
+		border: 0px;
+	}
+/* Lists */
+	ol,
+	ul
+	{
+		padding: 0px;
+		margin: 0px 0px 0px 20px;
+		list-style: square;
+	}
+/* Horizontal rules */
+	hr
+	{
+		padding: 0px;
+		margin: 5px 0px 5px 0px; /* FF & Opera */
+		margin-top: 2px;
+		height: 1px;
+		border: 0; /* FF & Opera */
+		color: #666666; /* IE */
+		background-color: #666666; /* FF & Opera */
+	}
+

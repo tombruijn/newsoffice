@@ -1,0 +1,75 @@
+Copyright © 2008 Newanz. All rights reserved. 
+Author: Tom de Bruijn / Maynar
+Writen on 28-01-2008
+Latest updated 07-11-2008 (Special conversion to NewsOffice installer, links etc.)
+
+Content
+1. Terms of Use for Applications
+2. Disclaimer
+3. Privacy Policy
+4. User Rules and Obligations
+5. Third Party Websites
+6. Owner's Rights
+7. Security
+8. Special Terms of Use for Applications
+
+1. Terms of Use for Applications
+Hello if you are installing an application, Welcome to an application by Newanz.
+When not, we welcome to the website of Newanz.
+
+We will write this Terms of Use for Applications from the installation point of view, so realise this when you are reading this from the website. Please also read the Terms of Use, it can be found on the http://newanz.com/ website.
+
+When using an application made by Newanz you agree to obey the Terms of Use that are written for it. When you do not, you will be banned permanently from this website and taken legal action against. So we suggest you read these rules carefully.
+
+Newanz has every right to change, remove or add rules to this Terms of Use without informing you. The effects on those changes will go active as soon as they are changed. They will apply on any new released application and, if so written, also on previously released applications. We suggest you read these rules when installing, using and editing the applications, scripts or information for changes. Tip keep an eye on the "Latest update" date on top of the page.
+
+2. Disclaimer
+Newanz is for informational reasons only. This means we will help visitors when they ask. Support will be given by Newanz Staff and users of this website. You can not "steal" any images, downloads, scripts and applications and claim them for your own. You can download certain files when this is made avaliable on the website, this means you need to follow the Terms of Use for Online. Some downloads like the installation packages of applications will also require you to follow the Terms of Use for Applications.
+
+All applications, scripts and information given to you through the website belong to Newanz. We do not tolerate any unauthorized use to any Newanz applications, scripts and information. Newanz will not be held responsible for any technical failure on our server or your computer. We try to garantee a safe use, but when it appears to be not, we will not be held responsible for any caused damage. This is an 'at own risk' deal.
+
+3. Privacy Policy
+Section A and B are located in the Terms of Use, read them also.
+
+C. Newanz Applications
+At Newanz we offer applications for, so far, free use. You can use these applications for your own personal use. Using our applications in a commercial environment is not allowed. It is allowed to use our applications in a commercial environment when you have requested this. We would look into your request to see if we will allow the use of our applications in a commercial environment.
+
+Request this using the Contact form at http://newanz.com/contact/.
+
+4. User Rules and Obligations
+What you are allowed to do
+You may download the applications, scripts or information and redistribute it. Altough it might be usefull when you want to spread the applications, scripts or information you can also link to the project page of that applications, scripts or information. This will counter any false downloads on the internet, when the Newanz website there is a garantee that it is the correct applications, scripts or information and not a package with harmfull programs inside.
+
+What you are not allowed to do
+You are not allowed to claim applications, scripts or information that is made by Newanz as your own.
+Also you may not rewrite parts of the applications, scripts or information or steal small pieces of code and claim it as your own.
+
+5. Third Party Websites
+As said in section 4, to garantee the correct package is send to the user, please link to the project page of the applications, scripts or information. But if you can also garantee the correct package is send to the user you may spread it from there.
+
+Updates, patches and plugins
+Updates and patches
+Most of our applications have an automatic updater functionality. This is a garantee it is a safe and correct update or patch for the application or script.
+When you, as an user have discovered a problem with an application of script of Newanz, please contact us through the contact form on the official Newanz website, at http://newanz.com/contact/. We will look into your find and when its modified we will release it in the next version, update or patch.
+
+Plugins
+We like other websites and users to help us make our applications, scripts or information even better. This means that any websites or users are allowed to make plugins for our applications and scripts. This will make them even better.
+Of course the plugins may not violate any of the Terms of Use for Applications or Online. When the plugin violates the agreed Terms we will request the creator to modify the plugin. 
+When a plugin is made please send a copy to us and we will review it. If we are happy with the plugin which follows the agreed Terms we will link to it as an "official" plugin.
+
+6. Owner's Rights
+All content given to you on the Newanz website is copyrighted to Newanz. If it is not copyrighted to Newanz the rightfull owner can leave his copyright inside or outside the content, if we didnt already placed it. We do not allow any wrong use of the contents given to you from the Newanz website. 
+
+You are not allowed to change or remove the copyright and "Powered by" statements that are present in applications, scripts or information. This is in conflict with the Terms of Use you agree to follow when installing and using the application. 
+When you want to remove the statements you will to need contact the Newanz Staff for information about this. Most probably this will require a small one-time payment, so you can use the applications, scripts or information without the statements. But still be bound to the Terms of Use.
+
+Read section 4 about your obligations towards the content you can download.
+
+7. Security
+We at Newanz try to keep the security as good as we possible can, but when our server is hacked, which can happen, and another content is displayed, we are not responsible for any damage that has been caused. We ask all our members and visitors to keep the website as safe as possible. So when applications need to update or send error messages it will be taken in confidence and not get hacked.
+
+For security measures forum usage and some website usage is beeing logged.
+
+8. Special Terms of Use for Applications
+Applications made by Newanz are build and tested on the main webserver of Newanz and other servers which we have acces to. Some content may even be tested on a LAMP or WAMP configuration at the homes of the programmers of the applications, scripts or information.
+Please note that we regret that we cannot provide mayor technical support for our free services at this moment. Our main support is located on the Forums, http://newanz.com/forums/, or through the Contact form, http://newanz.com/contact/.

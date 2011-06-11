@@ -1,0 +1,34 @@
+[<name>][url][<nav_cat>][cloak];
+"Dashboard""dashboard-main""1""";			Dashboard
+"Notes""dashboard-notes""1""";
+"Main""manager-main""2""";				Manager
+"Writer""editor-news""2""";
+"News""manager-news""2""";
+"Categories""manager-categories""2""";
+"Category editor""editor-category""2""manager-categories";
+"Comments""manager-comments""2""";
+"Comments editor""editor-comments""2""manager-comments";
+"Uploads""manager-uploads""2""";
+"Themes""manager-themes""2""";
+"Theme editor""manager-themes-editor""2""manager-themes";
+"Upload editor""editor-uploads""2""manager-uploads";
+"Settings""settings-main""3""";			Settings
+"Integration""settings-integration""3""";
+"Back-up""settings-back-up""3""";
+"Import""settings-import""3""";
+"Users main""users-main""4""";			Users
+"Profile""users-profile-own""4""";
+"New user""users-create-user""4""";
+"Create a new user group""users-create-group""4""users-manager-groups";
+"Users manager""users-manager-users""4""";
+"User editor""users-profile""4""users-manager-users";
+"Groups manager""users-manager-groups""4""";
+"User group editor""users-editor-groups""4""users-manager-groups";
+"User group permission editor""users-groups-permissions""4""users-manager-groups";
+"Main support""support-main""5""";		Support
+"Manuals""manuals-main""5""";
+"Manual: ""manuals-read""5""manuals-main";
+"System status""system-status""5""";
+"Updater""updater""5""";
+"Logout""logout""6""";
+"Plugin""plugin-newanz-testplugin_plugin""1""";
