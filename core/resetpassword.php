@@ -70,11 +70,13 @@ else
 			}
 			
 			$login_content .= "
+<form action='' method='post'>
 				<h2>Your new password</h2>
 				<input type='password' name='password_new' class='login-box'><br>
 				<h2>Confirm your new password</h2>
 				<input type='password' name='password_confirm' class='login-box'><br>
 				<div style='text-align: center;'><input type='submit' name='n_reset' value=' Change password '></div>
+</form>
 			";
 		}
 	}
