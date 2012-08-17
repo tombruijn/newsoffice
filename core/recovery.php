@@ -30,7 +30,7 @@ if($_POST['n_reset'])
 			{
 				$message .= " or ".$found_info['display-name'];
 			}
-			$message .= ",\n\nThis email is send because you have an account registered on the NewsOffice application at ".$no_config['acp_url']." and you or an Administrator has requested a password change.\n\nTo reset your password go to the link below and enter your new password. Then you will be able to login again with your new password and your username.\n\n".$no_config['acp_url']."?name=reset&id=".$found_info['reset_password']."\n\nThank you for using NewsOffice,\n\nNewsOffice Administrator at ".$no_config['acp_url'].".";
+			$message .= ",\n\nThis email is sent because you have an account registered on the NewsOffice application at ".$no_config['acp_url']." and you or an Administrator has requested a password change.\n\nTo reset your password go to the link below and enter your new password. Then you will be able to login again with your new password and your username.\n\n".$no_config['acp_url']."?name=reset&id=".$found_info['reset_password']."\n\nThank you for using NewsOffice,\n\nNewsOffice Administrator at ".$no_config['acp_url'].".";
 			$message = wordwrap($message, 70);
 			$header = "From: NewsOffice <".$no_config['acp_email'].">\r\n"; //optional headerfields
 			//NewsOffice 2.0.6 Beta Workaround

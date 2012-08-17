@@ -44,7 +44,7 @@ else
 				
 				//Send email
 				$subject = "NewsOffice mail: Password succesfully reset";
-				$message = "Dear ".$found_info['username']." or ".$found_info['display-name'].",\n\nThis email is send because you have an account registered on the NewsOffice application at ".$no_config['acp_url'].".\nYou or an Administrator has changed your password.\n\nYour new login details are:\nUsername: ".$found_info['username']."\nPassword: ".$_POST['password_new']."\nThank you for using NewsOffice,\n\nNewsOffice Administrator at ".$no_config['acp_url'].".";
+				$message = "Dear ".$found_info['username']." or ".$found_info['display-name'].",\n\nThis email is sent to you because you have an account registered on the NewsOffice application at ".$no_config['acp_url'].".\nYou or an Administrator has changed your password.\n\nYour new login details are:\nUsername: ".$found_info['username']."\nPassword: ".$_POST['password_new']."\nThank you for using NewsOffice,\n\nNewsOffice Administrator at ".$no_config['acp_url'].".";
 				$header = "From: NewsOffice <".$no_config['acp_email'].">\r\n"; //optional headerfields
 				//NewsOffice 2.0.6 Beta Workaround
 					ini_set('sendmail_from', $no_config['acp_email']); //Possible windows fix for sending mails

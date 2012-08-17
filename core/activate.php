@@ -33,7 +33,7 @@ if(!empty($id))
 					You can now login to NewsOffice.<br>";
 				//Send email
 				$subject = "NewsOffice mail: Account activated!";
-				$message = "Dear ".$activate_user['username'].",\n\nThis email is send because you have just activated your account on the NewsOffice application at ".$no_config['acp_url'].".\n\nYour login information has been send in a previous email.\n\nYou can login on this website: ".$no_config['acp_url']."\n\nThank you for using NewsOffice,\n\nNewsOffice Administrator at ".$no_config['acp_email'].".";
+				$message = "Dear ".$activate_user['username'].",\n\nThis email is sent because you have just activated your account on the NewsOffice application at ".$no_config['acp_url'].".\n\nYour login information has been sent in a previous email.\n\nYou can login on this website: ".$no_config['acp_url']."\n\nThank you for using NewsOffice,\n\nNewsOffice Administrator at ".$no_config['acp_email'].".";
 				$header = "From: NewsOffice <".$no_config['acp_email'].">\r\n"; //optional headerfields
 				//NewsOffice 2.0.6 Beta Workaround
 					ini_set('sendmail_from', $no_config['acp_email']); //Possible windows fix for sending mails

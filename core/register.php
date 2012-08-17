@@ -73,9 +73,9 @@ if($_POST['n_register'])
 			$subject = "NewsOffice mail: Account registered!";
 			$message = "Dear ".$_POST['n_username'].",
 
-This email is send because you have just registered an account on the NewsOffice application at ".$no_config['acp_url'].".
+This email has been sent to you because you have just registered an account on the NewsOffice application at ".$no_config['acp_url'].".
 
-This is your login information which you need to login to NewsOffice.
+This is your login information which you will need to login to NewsOffice.
 Username: ".$_POST['n_username']."
 Password: ".$_POST['n_password_new']."
 
@@ -151,7 +151,7 @@ if($show_content==true)
 		<ul>
 			<li>To use your account you will have to activate it.</li>
 			<li>Click on the link in the email you will recieve to activate your account.</li>
-			<li>The email send to you might be from an non-existing email account. Please check your spam box when you are not recieving an email.</li>
+			<li>The email sent to you might be from a non-existing email account. Please check your spam box when you are not recieving an email.</li>
 		</ul>
 		</div>
 	</div>
